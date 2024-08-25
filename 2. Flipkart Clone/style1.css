@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.nav{
+    height: 70px;
+    /* background-color: white; */
+    background-image: url(./amazon_logo.png);
+}
+.logo{
+    height: 40;
+    width: 160px;
+    
+}
