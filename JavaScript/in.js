@@ -21,8 +21,8 @@ const profile = {
 console.log(profile);
 
 // Arthimetic operators
-let a = 6;
-let b = 5
+let a = 5;
+let b = 6
 console.log("a=", a, "& b=", b);
 console.log("a+b=", a+b);
 console.log("a-b=", a-b);
@@ -32,6 +32,7 @@ console.log("a%b=", a%b);
 console.log("a**b=", a**b);
 
 // Unary operators
+
 console.log("a--=", a--);
 console.log("a=", a);
 
@@ -60,3 +61,32 @@ console.log("a **= b = ", a);
 
 a %= b; //a = a%b
 console.log("a %= b = ", a);
+
+// Comparison operators
+
+let c = 5;
+let d = 6;
+
+//equal to ==
+
+console.log("5 == 6", a == b);//false
+console.log("6 == 6", b == d);//true
+
+//not equal to !=
+
+console.log("5 != 6", a != b);//true
+console.log("6 != 6", d != b);//false
+
+//less than <
+
+console.log("5 < 6", a < b);//true
+console.log("6 < 5", b < a);//false
+
+// greatar than 
+
+console.log("5 > 6", a > b);//false
+console.log("6 > 5", b > a);//true
+
+// and so on greatar than equal to >= & less than equal to <=
+
+//Logical Operator
