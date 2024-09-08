@@ -22,7 +22,7 @@ console.log(profile);
 
 // Arthimetic operators
 let a = 5;
-let b = 6
+let b = 6;
 console.log("a=", a, "& b=", b);
 console.log("a+b=", a+b);
 console.log("a-b=", a-b);
@@ -90,3 +90,19 @@ console.log("6 > 5", b > a);//true
 // and so on greatar than equal to >= & less than equal to <=
 
 //Logical Operator
+
+// AND && operators
+
+let cond1 = a < b;//true
+let cond2 = a == 5;//true
+let cond3 = b != 6;//false
+let cond4 = a != 5;//false
+console.log( "cond1 && cond2", cond1 && cond2);//true
+console.log( "cond3 && cond2", cond3 && cond2);//false
+console.log( "cond3 && cond4", cond3 && cond4);//false
+
+// OR || operator
+
+console.log( "cond1 || cond2", cond1 || cond2);//true
+console.log( "cond4 || cond2", cond4 || cond2);//TRUE
+console.log( "cond3 || cond4", cond3 ||cond4 );//false
