@@ -106,3 +106,61 @@ console.log( "cond3 && cond4", cond3 && cond4);//false
 console.log( "cond1 || cond2", cond1 || cond2);//true
 console.log( "cond4 || cond2", cond4 || cond2);//TRUE
 console.log( "cond3 || cond4", cond3 ||cond4 );//false
+
+//conditonal statements
+
+// if else statement
+let mode = "blue";
+let color;
+// let dark = "dark";
+if (mode === "dark"){
+   color = "black";
+
+} else {
+   color = "white"
+}
+console.log(color);
+
+// odd or even 
+ let num = 10;
+ if(num%2===0){
+    console.log("even");
+ } else{
+    console.log("odd");
+ }
+
+ //syntax --> rules
+
+ //else-if statements
+
+ let age = 25;
+ if(age<18){
+
+    console.log("junior");
+
+ } else if (age>60){
+
+    console.log("senior");
+
+ }else{
+
+    console.log("middle");
+ }
+
+ // mode 
+if(mode == "dark"){
+
+   color = "dark";
+
+}else if (mode == "blue"){
+   color = "blue";
+}else if (mode == "pink"){
+   color="pink";
+}else{
+   color = "white";
+}
+console.log(color)
+
+// ternary operators
+let check = age>18?"adult":"not adult";
+console.log(check)
